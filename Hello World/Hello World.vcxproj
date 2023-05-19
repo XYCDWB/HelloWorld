@@ -21,8 +21,10 @@
   <ItemGroup>
     <ClCompile Include="LOG.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Shape.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Shape.h" />
     <ClInclude Include="Static.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

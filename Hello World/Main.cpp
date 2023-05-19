@@ -1,6 +1,7 @@
 
 #include <iostream>
 #include "Static.h"
+#include "Shape.h"
 
 
 #define LOG(x) std::cout << x << std::endl; //ºê
@@ -126,10 +127,13 @@ int main()
 	Log log;
 	log.SetLevel(log.info);
 	log.StatePrint();
-	log.StatePrint();
-	log.StatePrint();
-	log.StatePrint();
-	log.StatePrint();
+	
+	Shape box;
+	std::cout<<box.Area(6, 5)<<std::endl;
+
+
+
+
 
 	std::cin.get();
 }
